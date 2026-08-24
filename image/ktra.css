@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #4b2e20;
+}
+.banner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;     
+    padding: 40px 20px;    
+}
+
+.banner img {
+    max-width: 100%;        
+    height: auto;
+    margin-bottom: 15px;    
+}
+
+.banner h2 {
+    margin-bottom: 10px;  
+}
+
+.banner p {
+    margin-bottom: 20px;    
+}
+
+header {
+    background: #5b351f;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+
+nav {
+    background: #d69b65;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #5b351f;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+main h2 {
+    text-align: center;
+    color: #6b3e26;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    width: 32%;
+    background: white;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #fff8ef;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #8b542f;
+}
+
+.card p {
+    padding: 0 15px;
+}
+
+.gioithieu-ngan {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gioithieu-ngan video {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* TRANG CON */
+.page {
+    min-height: 500px;
+}
+
+.anh-gioithieu {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.mon {
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.mon img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.mon h3 {
+    color: #7a4528;
+}
+
+.mon p {
+    color: #d2691e;
+    font-weight: bold;
+}
+.contact {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px  #fff8ef;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #fff8ef;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background: #6b3e26;
+    color: white;border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d69b65;
+}
+footer {
+    background: #5b351f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
