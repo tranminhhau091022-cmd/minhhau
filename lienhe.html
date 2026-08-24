@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực Đơn - Trần Hậu Coffee & Cat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 align="center">PHIẾU ĐẶT BÀN TRỰC TUYẾN
+            </h3>
+              <table border="0" width="100%" cellpadding="8" cellspacing="0">
+                <tr>
+                  <td width="30%">
+                    <label for="fullName"><b>Họ và tên:</b></label>
+                  </td>
+                  <td width="70%">
+                    <input
+                      type="text" id="fullName" name="fullName" placeholder="Nhập họ và tên" equired style="width: 80%; padding: 5px"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="phoneNumber"><b>Số điện thoại:</b></label>
+                  </td>
+                  <td>
+                    <input
+                      type="text" id="phoneNumber" name="phoneNumber" placeholder="Nhập số điện thoại" requiredstyle="width: 80%; padding: 5px"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="Date"><b>Ngày & Giờ đến:</b></label>
+                  </td>
+                  <td>
+                    <input
+                      type="datetime-local"
+                      id="Date"
+                      name="Date"
+                      style="padding: 5px"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="guestCount"><b>Số lượng khách:</b></label>
+                  </td>
+                  <td>
+                    <input type="number" id="guestCount" name="guestCount"
+                      min="1"
+                      max="50"
+                      value="1"
+                      style="width: 80px; padding: 5px"
+                    />
+                    người
+                  </td>
+                </tr>
+                <tr>
+                  <td><b>Khu vực ngồi:</b></td>
+                  <td>
+                    <input type="radio" id="outdoor" name="seating" value="Sân vườn"
+                    /><label for="outdoor"> Sân vườn</label> &nbsp;
+                    <input
+                      type="radio"
+                      id="maylanh"
+                      name="seating"
+                      value="Phòng máy lạnh"
+                    /><label for="maylanh"> Phòng máy lạnh</label> &nbsp;
+                    <input
+                      type="radio"
+                      id="vip"
+                      name="seating"
+                      value="Phòng máy lạnh"
+                    /><label for="vip"> Phòng VIP</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                    <label for="dishes"><b>Chọn món trước:</b></label>
+                  </td>
+                  <td>
+                    <select
+                      id="dishes"
+                      name="dishes"
+                      size="5"
+                      multiple
+                      style="width: 85%; padding: 5px"
+                    >
+                        <option value="cp-coffe">Cà phê đen Size Vừa </option>
+                        <option value="cp-coffe">Cà phê đen Size Lớn </option>
+                        <option value="cp-coffe">Cà phê sữa Size Vừa </option>
+                        <option value="cp-coffe">Cà phê sữa Size Lớn </option>
+                        <option value="cp-coffe">Bạc xỉu Size Vừa </option>
+                        <option value="cp-coffe">Bạc xỉu Size Lớn </option>
+                        <option value="tra-dao">Trà đào Size Vừa </option>
+                        <option value="tra-dao">Trà đào Size Lớn </option>
+                        <option value="tra-vai">Trà vải Size Vừa </option>
+                        <option value="tra-vai">Trà vải Size Lớn </option>
+                        <option value="tra-chanh">Trà chanh Size Vừa </option>
+                        <option value="tra-chanh">Trà chanh Size Lớn </option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                    <label for="note"><b>Ghi chú thêm:</b></label>
+                  </td>
+                  <td>
+                    <textarea
+                      id="note"
+                      name="note"
+                      rows="3"
+                      style="width: 85%; padding: 5px"
+                      placeholder="Yêu cầu thêm"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center" style="padding-top: 15px">
+                    <input
+                      type="submit"
+                      value="XÁC NHẬN ĐẶT BÀN"
+                      onclick="
+                        alert('Đơn đặt bàn của bạn đã được gửi thành công!')
+                      "
+                      style="
+                        background-color: #000000;
+                        color: white;
+                        padding: 10px 25px;
+                        border: none;
+                        font-weight: bold;
+                        cursor: pointer;
+                        border-radius: 4px;
+                      "
+                    />
+                    <input
+                      type="reset"
+                      value="Nhập lại"
+                      style="
+                        padding: 10px 15px;
+                        margin-left: 10px;
+                        cursor: pointer;
+                      "
+                    />
+                  </td>
+                </tr>
+              </table>
+    <table border="1" align="center" width="1200" cellpadding="0" cellspacing="0" style="border-collapse: collapse;text-align: center;background-color: #dff70a; color: rgb(0, 0, 0); border: 1px solid black>
+    <div align="center>
+        <tr>
+          <td>
+        <p>
+          <h3>Trần Hậu COFFEE</h3>
+           <nav>
+    <a href="index.html">Quay lại trang</a>
+</nav>
+        </p>
+        </td>
+        </tr> 
+    </div>
+  </table>
+</body>
+</html>
